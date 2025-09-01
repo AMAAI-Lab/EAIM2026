@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX template for your DLM2017 extended abstract or paper.
+% by Dorien Herremans
+% Any questions: dorien.herremans@gmail.com
+%
+% The extended abstract is max 2 pages
+% The short paper can be up to 5 pages
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[DIV12]{scrartcl}
+
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	urlcolor=black
+}
+
+
+\date{}
+\usepackage{authblk}
+\usepackage{blindtext}
+
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+
+\title{Template of Workshop on Deep Learning for Music}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+\author[1]{J. Smith\thanks{j@abc.ac}}
+\author[1]{A. Johnson\thanks{a@abc.ac}}
+\author[2]{S. Newton\thanks{s@abc.ac.uk}}
+
+
+\affil[1]{\small University of X, City, Country}
+\affil[2]{\small University of Y, City, Country}
+
+
+\maketitle
+
+\begin{abstract}
+For extended abstracts please provide an abstract of max 150 words. For papers, max 300 words. 
+
+\bigskip
+
+\noindent {\textbf{Keywords:}} keywords, separated, by, commas (up to 6)
+
+\end{abstract}
+
+
+\section{Introduction}
+
+Write your paper text here. You can use Figures in the text, see Fig.~\ref{fig:example}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=.2\textwidth]{logo.png}
+\caption{My example figure}
+\label{fig:example}
+\end{figure}
+
+And tables like so demonstrated in Table~\ref{tab:example}. You can use bibtex with both cite
+~\citep{bengio2013advances} and citet commands~\citet{hamel2010learning}. 
+
+
+\blindtext[1]
+
+\begin{table}[h]
+\centering
+\caption{My table caption}
+\label{tab:example}
+\begin{tabular}{lcc}
+\toprule
+label 1 & label 2 & label 3 \\
+\midrule
+test1 & 4 & 7 \\
+test2 & 3 & 5 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\blindtext[1]
+
+\bibliography{paper}
+
+
+
+\end{document}
+
+
+
+% \begin{thebibliography}{}
+% 
+% 
+% \end{thebibliography}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% In your short article text you can use LaTeX features like \section
+% and \thebibliography.
+% You can use LaTeX's math capabilities, but please restrict the use of
+% mathematical notation to a minimum.
+% Figures or tables are not allowed.
+% References, if any, should be included in your LaTeX file. 
+% The total length should not exceed two printed A4 pages.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

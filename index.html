@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workshop on Deep Learning for Music</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/elegant-font/code/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+
+</head>
+
+<body>
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+         
+         ga('create', 'UA-2441516-22', 'auto');
+         ga('send', 'pageview');
+         
+        </script>
+
+
+<!-- Loader -->
+<div class="loader">
+    <div class="loader-img"></div>
+</div>
+
+<!-- Top menu -->
+<nav class="navbar navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Lancar - Bootstrap One-Page Portfolio Template</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="scroll-link" href="#top-content">Top</a></li>
+                <li><a class="scroll-link" href="#what-we-do">Description</a></li>
+                <li><a class="scroll-link" href="#portfolio">Speakers</a></li>
+                <li><a class="scroll-link" href="#pricing-2">Program</a></li>
+                <li><a class="scroll-link" href="#about">Organizers</a></li>
+                <li><a class="scroll-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Page title -->
+<div class="page-title top-content">
+    <div class="page-title-text wow fadeInUp">
+        <h1> International Workshop on Deep Learning for Music</h1>
+        <p><b>Held in conjunction with the 2017 International Joint Conference on Neural Networks (IJCNN 2017))</b></p><p>18-19 May 2017 <a href="www.ijcnn.org/program-overview" style="color: black;"></a>, Anchorage</p>
+        <div class="page-title-bottom-link">
+            <a class="big-link-1 btn scroll-link" href="#pricing-2"><b>Program/Proceedings</b></a>
+            <a class="big-link-2 btn scroll-link" href="#portfolio"><b>Speakers</b></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- What we do -->
+<div class="block-3-container section-container what-we-do-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 block-2-left section-description wow fadeIn">
+                <h2>Workshop Description</h2>
+                <div class="divider-1 wow fadeInUp block-2-box "><span></span></div>
+                <p> There has been tremendous interest in deep learning across many fields of study. Recently, these techniques have gained popularity in the field of music. Projects such as Magenta (Google's Brain Team's music generation project), Jukedeck and others testify to their potential.
+                
+                </p><p>
+                
+                While humans can rely on their intuitive understanding of musical patterns and the relationships between them, it remains a challenging task for computers to capture and quantify musical structures. Recently, researchers have attempted to use deep learning models to learn features and relationships that allow us to accomplish tasks in music transcription, audio feature extraction, emotion recognition, music recommendation, and automated music generation.
+                </p><p>
+                With this workshop we aim to advance the state-of-the-art in machine intelligence for music by bringing together researchers in the field of music and deep learning. This will enable us to critically review and discuss cutting-edge-research so as to identify grand challenges, effective methodologies, and potential new applications.
+
+
+                </p>
+                <p>
+
+Papers and abstracts on the application of deep learning techniques on music are welcomed, including but not limited to:
+
+                <ul style="font-size: 1.5em; text-align:left; list-style-type:none">
+                    <li><span aria-hidden="true" class="icon_plus list-icon"></span>Deep learning applications for
+                        computational music research
+                    </li>
+                    <li><span aria-hidden="true" class="icon_plus list-icon"></span>Modeling hierarchical and long
+                        term music structures using deep learning
+                    </li>
+                    <li><span aria-hidden="true" class="icon_plus list-icon"></span>Modeling ambiguity and preference
+                        in music
+                    </li>
+                    <li><span aria-hidden="true" class="icon_plus list-icon"></span>Software frameworks and tools for
+                        deep learning in music
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="clients-container portfolio-container section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 about section-description wow fadeIn">
+                <h2>Speakers: </h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+            </div>
+        </div>
+    
+</div>
+
+
+
+
+
+
+<!-- Block 2  SPEAKERS -->
+<div class="block-2-container section-container about-block-2-container" style="margin-top: -34em;">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
+                <div class="block-2-img-container">
+
+                <img src="assets/img/about/sageev.jpg" alt="" data-at2x="assets/img/about/sageev.jpg">
+                                                <div class="img-container-line line-1"></div>
+                                                <div class="img-container-line line-2"></div>
+                                                <div class="img-container-line line-3"></div>
+                </div>
+            </div>
+            <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
+            <h3>Prof. dr. Sageev Oore <span>Google Magenta / Saint Mary’s University (Canada)</span> </h3>
+            
+<!--            <p><b>Using Deep Learning and Reinforcement Learning to Generate Music Audio and Scores</b></p>-->
+<!--            -->
+<!--            <p>-->
+<!--            I'll discuss Project Magenta, an effort to generate music, video, images and text using machine intelligence. Magenta poses the question, ``Can machines make music and art? If so, how? If not, why not?" The goal of Magenta is to produce open-source tools and models that help creative people be even more creative. An overview of Magenta will be given with focus on closing the loop between musicians and code. I'll discuss recent progress in audio and music score generation, and will focus on the challenge of improving machine learning generative models based on user and artist feedback.-->
+<!--            -->
+<!---->
+<!---->
+<!--                </p>-->
+<!--                -->
+                <p>
+                <b>Bio</b>
+Sageev Oore completed an undergraduate degree in Mathematics (Dalhousie), and MSc and PhD degrees in Computer Science (University of Toronto) working with Geoffrey Hinton. He studied piano with both classical and jazz teachers from schools including Dalhousie, Juilliard, UBC and York University (Toronto), and has performed as soloist with orchestras both as a classical pianist and as a jazz improviser. His academic research has spanned from minimally-supervised learning for robot localization to adaptive real-time control of 3D graphical models. Together with his brother Dani, he co-created a duo instrumental CD combining classical art songs with improvisation. Recently, Sageev’s long-standing interest in combining machine learning and music surpassed his long-standing resistance to that same topic. Sageev is a professor of computer science at Saint Mary’s University (Canada), and is currently a visiting research scientist on the Magenta team (led by Douglas Eck) at Google Brain, working on application of deep learning approaches to music-related data.
+                </p>
+
+            </div>
+
+
+        </div>
+        <!--<p>test test<p>-->
+    </div>
+</div>
+
+
+
+
+
+
+<!-- Block 2 -->
+<div class="block-2-container section-container section-container-gray about-block-2-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
+            <h3>dr. Oriol Nieto / <span>Pandora</span></h3>
+<!--            <p><p><b>Deep Learning at Pandora</b></p>-->
+<!--            <p>-->
+<!--            -->
+<!--            Music streaming services nowadays offer large catalogues that expose new challenges in terms of automatically recommending music to tens of millions of users. At Pandora, around 75 billion "thumbs" and manual analyses for over 1.5 million songs have been gathered over the years. In this talk we will leverage some of these data by applying deep networks to both audio content and metadata with the goal of improving the listener experience. The basics of collaborative filtering and machine listening will be reviewed, framed under the music recommendation umbrella, and enhanced with various deep learning techniques.-->
+<!--            -->
+<!--                </p>-->
+<!--                -->
+                <p>
+                <b>Bio</b>
+                
+                Oriol Nieto, born in Barcelona in 1983, is a data scientist at Pandora. He obtained his Ph.D in Music Data Science from the Music and Audio Research Lab at NYU (New York, NY, USA) in 2015. He holds an M.A. in Music, Science and Technology from Stanford University (Stanford, CA, USA), an M.Sc in Information Technologies from Pompeu Fabra University (Barcelona, Spain), and a B.Sc. in Computer Science from Polytechnic University of Catalonia (Barcelona, Spain). His research focuses on topics such as music information retrieval, large scale recommendation systems, and machine learning with especial emphasis on deep architectures. He plays guitar, violin, and sings (and screams) in his spare time.
+                </p>
+
+            </div>
+            <div class="col-sm-4 block-2-box block-2-left wow fadeInLeft">
+                <div class="block-2-img-container">
+                    <img src="assets/img/about/oriol.jpg" alt="" data-at2x="assets/img/about/oriol.jpg">
+                    <div class="img-container-line line-1"></div>
+                    <div class="img-container-line line-2"></div>
+                    <div class="img-container-line line-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Block 2 (team member) -->
+<div class="block-2-container section-container about-block-2-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
+                <div class="block-2-img-container">
+                    <img src="assets/img/about/katagres.jpg" alt="" data-at2x="assets/img/about/katagres.jpg">
+                    <div class="img-container-line line-1"></div>
+                    <div class="img-container-line line-2"></div>
+                    <div class="img-container-line line-3"></div>
+                </div>
+            </div>
+            <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
+            <h3>Dr. Kat Agres/ <span>A*STAR Institute of High Performance Computing</span> </h3>
+<!--            <p><b>Researching at the intersection of neural networks and music cognition</b></p>-->
+<!--            <p>-->
+<!--            One brach of my current research seeks to simulate perceptual and cognitive processes in the domain of music through the use of both shallow and deep neural networks. My talk will discuss how NNs may be employed to model how humans learn tonal structure in music, as well as octave equivalence and harmonic expectation. Focus will be placed on how different representations, training corpora, and architectures may be used to simulate different populations of listeners (e.g., novice versus expert musicians).-->
+<!--            By taking this interdisciplinary approach between music, cognitive science, and computer science, we may both develop better computational tools and shed light on various aspects of music perception and cognition.-->
+<!---->
+<!--                </p>-->
+
+                <p>
+                <b>Bio</b>
+                Kat Agres received her PhD in Experimental Psychology from Cornell University in 2012. She also holds a bachelor's degree in Cognitive Psychology and Cello Performance from Carnegie Mellon University, and has received numerous grants to support her research, including a Fellowship from the National Institute of Health. She recently finished a postdoctoral research position at Queen Mary, University of London, where she was supported by a European Union Seventh Framework Programme grant investigating Computational Creativity. Her research explores a wide range of topics, including music cognition, computational models of music perception, auditory learning and memory, and computational creativity. She has presented her work at international workshops and conferences in over a dozen countries, and, in January 2017, Kat joined the A*STAR Institute of High Performance Computing (Social &amp; Cognitive Computing Department) in Singapore to start a program of research focused on music cognition.
+                </p>
+                <!--<h3>Follow Her:</h3>
+                <div class="about-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div>-->
+            </div>
+        </div>
+<!--        <p>-->
+<!--            Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.-->
+<!--            Mirum est notare quam littera gothica, quam nunc putamus parum claram lorem.-->
+        <!--</p>-->
+    </div>
+</div>
+
+
+
+
+<!--&lt;!&ndash; Counters &ndash;&gt;-->
+<!--<div class="counters-container section-container section-container-full-bg">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-3 counter-box wow fadeInUp">-->
+                <!--<h4 data-from="0" data-to="12">0</h4>-->
+                <!--<p>Years of experience</p>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3 counter-box wow fadeInDown">-->
+                <!--<h4 data-from="0" data-to="274">0</h4>-->
+                <!--<p>Projects completed</p>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3 counter-box wow fadeInUp">-->
+                <!--<h4 data-from="0" data-to="19295">0</h4>-->
+                <!--<p>Lines of code</p>-->
+            <!--</div>-->
+            <!--<div class="col-sm-3 counter-box wow fadeInDown">-->
+                <!--<h4 data-from="0" data-to="8296">0</h4>-->
+                <!--<p>Cups of coffee</p>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- Portfolio -->
+<!--<div class="portfolio-container section-container">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio section-description wow fadeIn">-->
+                <!--<h2>Our portfolio</h2>-->
+                <!--<div class="divider-1 wow fadeInUp"><span></span></div>-->
+                <!--<p>-->
+                    <!--Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum-->
+                    <!--est notare quam littera gothica, quam nunc putamus parum claram lorem.-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio-filters wow fadeInUp">-->
+                <!--<a href="#" class="filter-all active">All</a> /-->
+                <!--<a href="#" class="filter-design">Design</a> /-->
+                <!--<a href="#" class="filter-development">Development</a> /-->
+                <!--<a href="#" class="filter-branding">Branding</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio-masonry">-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/1.jpg" alt="" data-at2x="assets/img/portfolio/1.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Trilli Bi template</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/2.jpg" alt="" data-at2x="assets/img/portfolio/2.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit amet logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/3.jpg" alt="" data-at2x="assets/img/portfolio/3.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Aeria app page</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/4.jpg" alt="" data-at2x="assets/img/portfolio/4.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Etiam processus dynamicus</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/5.jpg" alt="" data-at2x="assets/img/portfolio/5.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>March notare site</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/6.jpg" alt="" data-at2x="assets/img/portfolio/6.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Mirum est notare</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/7.jpg" alt="" data-at2x="assets/img/portfolio/7.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Celic template</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/8.jpg" alt="" data-at2x="assets/img/portfolio/8.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit amet logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/9.jpg" alt="" data-at2x="assets/img/portfolio/9.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Jalia business</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/10.jpg" alt="" data-at2x="assets/img/portfolio/10.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Mirum est notare</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/11.jpg" alt="" data-at2x="assets/img/portfolio/11.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Etiam processus social</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/12.jpg" alt="" data-at2x="assets/img/portfolio/12.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit website logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+<!--<div class="portfolio-container section-container">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio section-description wow fadeIn">-->
+                <!--<h2>Our portfolio</h2>-->
+                <!--<div class="divider-1 wow fadeInUp"><span></span></div>-->
+                <!--<p>-->
+                    <!--Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum-->
+                    <!--est notare quam littera gothica, quam nunc putamus parum claram lorem.-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio-filters wow fadeInUp">-->
+                <!--<a href="#" class="filter-all active">All</a> /-->
+                <!--<a href="#" class="filter-design">Design</a> /-->
+                <!--<a href="#" class="filter-development">Development</a> /-->
+                <!--<a href="#" class="filter-branding">Branding</a>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 portfolio-masonry">-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/1.jpg" alt="" data-at2x="assets/img/portfolio/1.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Trilli Bi template</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/2.jpg" alt="" data-at2x="assets/img/portfolio/2.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit amet logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/3.jpg" alt="" data-at2x="assets/img/portfolio/3.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Aeria app page</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/4.jpg" alt="" data-at2x="assets/img/portfolio/4.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Etiam processus dynamicus</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/5.jpg" alt="" data-at2x="assets/img/portfolio/5.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>March notare site</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/6.jpg" alt="" data-at2x="assets/img/portfolio/6.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Mirum est notare</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/7.jpg" alt="" data-at2x="assets/img/portfolio/7.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Celic template</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/8.jpg" alt="" data-at2x="assets/img/portfolio/8.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit amet logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/9.jpg" alt="" data-at2x="assets/img/portfolio/9.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Jalia business</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box design">-->
+                    <!--<img src="assets/img/portfolio/10.jpg" alt="" data-at2x="assets/img/portfolio/10.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Mirum est notare</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box development">-->
+                    <!--<img src="assets/img/portfolio/11.jpg" alt="" data-at2x="assets/img/portfolio/11.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Etiam processus social</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="portfolio-box branding">-->
+                    <!--<img src="assets/img/portfolio/12.jpg" alt="" data-at2x="assets/img/portfolio/12.jpg">-->
+                    <!--<div class="portfolio-box-text-container">-->
+                        <!--<div class="portfolio-box-text">-->
+                            <!--<p>Sit website logo</p>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- Block 2 -->
+<!--<div class="block-2-container section-container section-container-gray">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-6 block-2-box block-2-left wow fadeInLeft">-->
+                <!--<h3>How we do it?</h3>-->
+                <!--<p>-->
+                    <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+                    <!--incididunt ut labore et dolore magna.-->
+                <!--</p>-->
+                <!--<ul>-->
+                    <!--<li>-->
+                        <!--<span aria-hidden="true" class="icon_plus list-icon"></span> Etiam processus dynamicus qui-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span aria-hidden="true" class="icon_plus list-icon"></span> Quam nunc putamus Photoshop-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span aria-hidden="true" class="icon_plus list-icon"></span> Mutationem consuetudium WordPress-->
+                    <!--</li>-->
+                    <!--<li>-->
+                        <!--<span aria-hidden="true" class="icon_plus list-icon"></span> Exerci tation ullamcorper-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="col-sm-6 block-2-box block-2-right block-2-media wow fadeInUp">-->
+                <!--<div class="video-box">-->
+                    <!--<div class="embed-responsive embed-responsive-16by9">-->
+                        <!--<iframe class="embed-responsive-item"-->
+                                <!--src="//player.vimeo.com/video/115014610?title=0&amp;byline=0&amp;portrait=0&amp;badge=0"-->
+                                <!--webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
+
+
+<!-- QUOTE -->
+<div class="our-motto-container section-container section-container-full-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 our-motto section-description wow fadeInLeftBig">
+                <p>
+                <a href="https://groups.google.com/forum/#!forum/icdlm" style="color: gray; font-weight: bold;">Join the mailing list for the online community of Deep Learning and Music: </a>
+                </p>
+                <div class="our-motto-author"><a href="https://groups.google.com/forum/#!forum/icdlm" style="font-weight: bold;">ICDLM</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Pricing -->
+<div class="pricing-2-container section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 pricing-2 section-description wow fadeIn">
+                <h2>Program</h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+                <p>
+                <b>Workshop program</b><br/>
+                <a href="http://dorienherremans.com/dlm2017/program.pdf">Download the technical program</a>
+                
+                </p><p>
+                
+                <b>Proceedings</b><br/>
+                <a href="http://dorienherremans.com/dlm2017/proceedings.pdf">Download the Proceedings</a>
+                
+                </p><p>
+                
+                
+                <b>Registration</b><br/>
+                
+                Please register for the workshop at the <a href="http://www.ijcnn.org">main conference website</a>.
+                </p><p>
+                
+                <b>Submissions of Papers</b><br/>
+               Papers of up to 5 pages using the following template are welcomed for a talk. Submissions will be evaluated according to their originality, technical soundness and relevance to the workshop. The guidelines in of the workshop’s latex <a href="./dlm17template.zip">template</a> should be followed. Contributions should be in PDF format and submitted to d.herremans@qmul.ac.uk with the subject line: [DLM17 paper submission]. Submissions do not need to be anonymized. Papers will be peer-reviewed and published in the proceedings of the workshop.
+                </p><p>
+                <b>Submissions of Abstracts</b><br/>
+                
+                Structured abstracts of max 2 pages can be submitted for a shorter talk. The abstracts should follow the same <a href="./dlm17template.zip">template</a> as the papers and will be included in the proceedings. Abstracts should be in PDF format and submitted to d.herremans@qmul.ac.uk with the subject line: [DLM17 abstract submission]. Abstracts will be peer-reviewed and included in the proceedings of the workshop.
+                </p><p>
+                <b>Special Issue in Journal</b><br/>
+                Authors will be invited to submit a full paper version of their extended abstract for a special issue on deep learning for music and audio in Springer's Neural Computing Applications. 
+
+</p>
+<p>
+<b>Programme Committee</b><br/>
+Dorien Herremans (Queen Mary University of London, UK)<br/>
+Ching-Hua Chuan (University of North-Florida, US)<br/>
+Louis Bigo (Universite Lille 3, France)<br/>
+Maarten Grachten (Austrian Research Institute for Artificial Intelligence, Austria)<br/>
+Sebastian Stober (University of Potsdam, Germany)<br/>
+</p>
+<p>
+
+<b>Important Dates</b><br/>
+Paper Submission Deadline: March 12th<br/>
+Acceptance Notification: April 1 (due to extended dealine)<br/>
+Final versions due: April 23, 2017<br/>
+Workshop Date: May 18-19, 2017<br/>
+
+</p><p>
+<b>Registration</b><br/>
+Workshop registration will be handled by the main conference, please check <a href="http://ijcnn.org">IJCNN</a> for more details.
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--&lt;!&ndash; Testimonials &ndash;&gt;-->
+<!--<div class="testimonials-container section-container section-container-gray">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-8 testimonials section-description wow fadeInLeft">-->
+                <!--<h3>Listen to our clients</h3>-->
+                <!--<div class="testimonial-active"></div>-->
+                <!--<div class="testimonial-single">-->
+                    <!--<p>-->
+                        <!--Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit-->
+                        <!--lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam,-->
+                        <!--quis nostrud exerci tation ullamcorper suscipit lobortis nisl.-->
+                        <!--<br>-->
+                        <!--<a href="">John Doe, johndoe.com</a>-->
+                    <!--</p>-->
+                    <!--<div class="testimonial-single-image">-->
+                        <!--<img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonial-single">-->
+                    <!--<p>-->
+                        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
+                        <!--ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+                        <!--incididunt ut labore et.-->
+                        <!--<br>-->
+                        <!--<a href="">Jane Jonsson, blog.jane.com</a>-->
+                    <!--</p>-->
+                    <!--<div class="testimonial-single-image">-->
+                        <!--<img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonial-single">-->
+                    <!--<p>-->
+                        <!--Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit-->
+                        <!--lobortis nisl ut aliquip ex ea commodo consequat. Ut wisi enim ad minim veniam,-->
+                        <!--quis nostrud exerci tation ullamcorper suscipit lobortis nisl.-->
+                        <!--<br>-->
+                        <!--<a href="">John Doe, johndoe.com</a>-->
+                    <!--</p>-->
+                    <!--<div class="testimonial-single-image">-->
+                        <!--<img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="testimonial-single">-->
+                    <!--<p>-->
+                        <!--Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt-->
+                        <!--ut labore et. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor-->
+                        <!--incididunt ut labore et.-->
+                        <!--<br>-->
+                        <!--<a href="">Jane Jonsson, blog.jane.com</a>-->
+                    <!--</p>-->
+                    <!--<div class="testimonial-single-image">-->
+                        <!--<img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="testimonials-icon-container">-->
+            <!--<span aria-hidden="true" class="icon_chat"></span>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- Call to action -->
+<!--<div class="call-to-action-container section-container section-container-full-bg">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12 call-to-action section-description wow fadeInLeftBig">-->
+                <!--<p>-->
+                    <!--<b>Interested in participating in this workshop?</b>-->
+                <!--</p>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="row">-->
+            <!--<div class="col-sm-12">-->
+                <!--<div class="section-bottom-link wow fadeInUp">-->
+                    <!--<a class="big-link-1 btn scroll-link" href="#contact">Contact us now!</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
+
+<!-- About us -->
+<div class="about-container section-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 about section-description wow fadeIn">
+                <h2>Organizers</h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+                <p>
+
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Block 2 (team member) -->
+<div class="block-2-container section-container about-block-2-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 block-2-box block-2-left block-2-media wow fadeInLeft">
+                <div class="block-2-img-container">
+                    <img src="assets/img/about/dorien1_small.jpg" alt="" data-at2x="assets/img/about/dorien1_small.jpg">
+                    <div class="img-container-line line-1"></div>
+                    <div class="img-container-line line-2"></div>
+                    <div class="img-container-line line-3"></div>
+                </div>
+            </div>
+            <div class="col-sm-8 block-2-box block-2-right wow fadeInUp">
+                <h3>dr. Dorien Herremans / <span>Queen Mary University of London</span></h3>
+                <p>
+                    Dorien Herremans is currently a Marie sklodowska-Curie Postdoctoral Fellow at the Centre for Digital Music at Queen Mary University of London. She is currently working on the project: ``MorpheuS: Hybrid Machine Learning – Optimization techniques To Generate Structured Music Through Morphing And Fusion''.
+                    She received her Ph.D. on the topic of Computer Generation and Classification of Music through Operations Research Methods. She graduated as a commercial engineer in management information systems at the University of Antwerp in 2005. After that, she worked as a Drupal consultant and was an IT lecturer at the Les Roches University in Bluche, Switzerland. She also worked as a mandaatassistent at the University of Antwerp, in the domain of operations managment, supply chain management and operations research. Dr. Herremans' research interests include machine learning and music for automatic music generation, data mining for music classification (hit prediction) and novel applications in the intersections of machine learning/optimization and music. Dr. Herremans is a member of IEEE society and in the organizing committe of ORBEL26 (Conference of the Belgian Operations Research Society). She also serves on the program committee member of the International Society of Music Information Retrieval, the International Conference on Principle and Practice of Constraint Programming, the International Conference on Mathematics and Music and the International Workshop on Music and Machine Learning (part of ECML/PKDD).
+
+                </p>
+
+                <!--<h3>Follow Her:</h3>-->
+                <!--<div class="about-social">-->
+                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-dribbble"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Block 2 (team member) -->
+<div class="block-2-container section-container section-container-gray about-block-2-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 block-2-box block-2-left wow fadeInLeft">
+                <h3>Prof. dr. Ching-Hua Chuan / <span>University of North Florida</span></h3>
+                <p>
+                    Ching-Hua Chuan is an associate professor of computing at University of North Florida. She received her Ph.D. in computer science from University of Southern California (Los Angeles, CA, USA) Viterbi School of Engineering, and her B.S. and M.S. degrees in electrical engineering from the National Taiwan University. Dr. Chuan’s research interests include audio signal processing, music information retrieval, artificial intelligence and machine learning. She has published refereed articles in journals and conferences on audio content analysis, style-specific music generation, machine learning applications, and music and multimedia information retrieval. She was the recipient of the best new investigator paper award at the Grace Hopper Celebration of Women in Computing in 2010. Dr. Chuan has served on the program committees of International Society of Music Information Retrieval, International Conference on Mathematics and Computation in Music, International Conference on New Interfaces for Musical Expression, IEEE International Workshop on Multimedia Information Processing and Retrieval, International ACM Workshop on Music Information Retrieval with User-Centred and Multimodal Strategies, and the scientific advisory committee for Music Similarity workshop at Lorentz center. She is also the founder of Women in Music Information Retrieval (WiMIR) and the co-director of Florida regional Botball educational robotics program.
+
+                </p>
+                <!--<p>-->
+                    <!--Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.-->
+                    <!--Mirum est notare quam littera gothica, quam nunc putamus parum claram lorem.-->
+                <!--</p>-->
+                <!--<h3>Follow Him:</h3>-->
+                <!--<div class="about-social">-->
+                    <!--<a href="#"><i class="fa fa-facebook"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-dribbble"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-twitter"></i></a>-->
+                    <!--<a href="#"><i class="fa fa-pinterest"></i></a>-->
+                <!--</div>-->
+            </div>
+            <div class="col-sm-4 block-2-box block-2-right block-2-media wow fadeInUp">
+                <div class="block-2-img-container">
+                    <img src="assets/img/about/chingua.png" alt="" data-at2x="assets/img/about/chingua.png">
+                    <div class="img-container-line line-1"></div>
+                    <div class="img-container-line line-2"></div>
+                    <div class="img-container-line line-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Contact us (block 2) -->
+<div class="block-2-container section-container contact-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 block-2 section-description wow fadeIn">
+                <h2>Contact us</h2>
+                <div class="divider-1 wow fadeInUp"><span></span></div>
+                <p>
+                    You can contact the organizers through d [dot] herremans [a] qmul.ac.uk.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="row">
+             <div class="col-sm-4 block-2-box block-2-left contact-form wow fadeInLeft">
+                 <h3>Email us</h3>
+                 <form role="form" action="assets/contact.php" method="post">
+                     <div class="form-group">
+                         <label class="sr-only" for="contact-email">Email</label>
+                         <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+                     </div>
+                     <div class="form-group">
+                         <label class="sr-only" for="contact-subject">Subject</label>
+                         <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+                     </div>
+                     <div class="form-group">
+                         <label class="sr-only" for="contact-message">Message</label>
+                         <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+                     </div>
+                     <button type="submit" class="btn">Send it</button>
+                 </form>
+             </div>
+             <div class="col-sm-4 block-2-box block-2-right contact-address wow fadeInUp">
+                 <h3>Visit us</h3>
+                 <p><span aria-hidden="true" class="icon_pin"></span>Via Principe Amedeo 9, Torino, Italy</p>
+                 <p><span aria-hidden="true" class="icon_phone"></span>Phone: 0039 333 12 68 347</p>
+                 <p><span aria-hidden="true" class="icon_mail"></span>Email: <a href="">hi@yourdomain.com</a></p>
+             </div>-->
+    </div>
+<!--    <div class="contact-icon-container">-->
+<!--        <span aria-hidden="true" class="icon_mail"></span>-->
+<!--    </div>-->
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="scroll-to-top">
+                    <a href="#"><i class="fa fa-chevron-up"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 footer-copyright">
+                &copy; Deep Learning for Music</a>.
+            </div>
+            <div class="col-sm-5 footer-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-dribbble"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Javascript -->
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.backstretch.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/retina-1.1.0.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/waypoints.min.js"></script>
+<script src="assets/js/jquery.countTo.js"></script>
+<script src="assets/js/masonry.pkgd.min.js"></script>
+<script src="assets/js/scripts.js"></script>
+
+<!--[if lt IE 10]>
+<script src="assets/js/placeholder.js"></script>
+<![endif]-->
+
+</body>
+
+</html>
