@@ -115,7 +115,7 @@ img { max-width: 100%; }
 	display: inline-block;
 	margin: 0 5px;
 	padding: 14px 19px;
-	background: none;
+	background: #4FC3F7;
 	border: 1px solid #fff;
 	font-size: 22px;
     font-weight: 300;
@@ -123,7 +123,7 @@ img { max-width: 100%; }
     color: #fff;
     -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;
 }
-.big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; background: none; color: #fff; }
+.big-link-2:hover, .big-link-2:focus, .big-link-2:active, .big-link-2:active:focus { outline: 0; opacity: 0.6; color: #fff; }
 
 .green-text { color: #2ba560; }
 
