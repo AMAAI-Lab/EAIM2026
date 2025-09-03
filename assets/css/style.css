@@ -450,20 +450,20 @@ ul.navbar-nav li a:focus { background: none; color: #2ba560; outline: 0; }
 
 /***** Pricing tables *****/
 
-.pricing-2-box {
+.cfp-box {
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
-.pricing-2-table { margin: 20px 0 0 0; padding: 25px; border: 4px solid #eee; }
-.pricing-2-table-best { margin-top: 0; border-color: #2ba560; }
+.cfp-table { margin: 20px 0 0 0; padding: 25px; border: 4px solid #eee; }
+.cfp-table-best { margin-top: 0; border-color: #2ba560; }
 
-.pricing-2-table h3 { margin: 0; }
-.pricing-2-table h4 { margin-top: 5px; font-size: 22px; font-weight: 300; line-height: 36px; }
+.cfp-table h3 { margin: 0; }
+.cfp-table h4 { margin-top: 5px; font-size: 22px; font-weight: 300; line-height: 36px; }
 
-.pricing-2-table-divider span { display: inline-block; width: 100%; height: 1px; border-bottom: 1px dotted #ddd; }
+.cfp-table-divider span { display: inline-block; width: 100%; height: 1px; border-bottom: 1px dotted #ddd; }
 
-.pricing-2-table-icon {
+.cfp-table-icon {
 	width: 80px;
 	height: 80px;
     margin: 25px auto 0 auto;
@@ -474,15 +474,15 @@ ul.navbar-nav li a:focus { background: none; color: #2ba560; outline: 0; }
     color: #fff;
     line-height: 34px;
 }
-.pricing-2-table-icon i, .pricing-2-table-icon span { vertical-align: middle; }
+.cfp-table-icon i, .cfp-table-icon span { vertical-align: middle; }
 
-.pricing-2-table-price { margin: 25px 0 10px 0; font-size: 18px; line-height: 44px; }
-.pricing-2-table-price span { color: #555; font-size: 44px; }
+.cfp-table-price { margin: 25px 0 10px 0; font-size: 18px; line-height: 44px; }
+.cfp-table-price span { color: #555; font-size: 44px; }
 
-.pricing-2-table-description { font-size: 18px; line-height: 32px; }
-.pricing-2-table-description span { display: inline-block; padding-right: 10px; color: #444; }
+.cfp-table-description { font-size: 18px; line-height: 32px; }
+.cfp-table-description span { display: inline-block; padding-right: 10px; color: #444; }
 
-.pricing-2-table-button { margin: 25px 0 10px 0; }
+.cfp-table-button { margin: 25px 0 10px 0; }
 
 
 /***** Testimonials *****/
