@@ -135,6 +135,23 @@
                   </ul>
 					<script src="https://cdn.logwork.com/widget/countdown.js"></script>
 					<a href="https://logwork.com/countdown-timer" class="countdown-timer" data-style="circles" data-timezone="Asia/Singapore" data-date="2025-10-29 23:00">Countdown Timer</a>
+				   <script>
+					  const iframe = document.getElementById("countdown_iframe_492508");
+					
+					  iframe.addEventListener("load", () => {
+					    try {
+					      // Access the iframe's document
+					      const doc = iframe.contentDocument || iframe.contentWindow.document;
+					      if (doc && doc.body && doc.body.innerText.includes("Incorrect embedding code")) {
+					        iframe.style.display = "none";
+					        console.warn("Countdown iframe hidden — incorrect embed detected.");
+					      }
+					    } catch (e) {
+					      // Cross-origin protection: if we can’t access the content, do nothing
+					      console.log("Unable to inspect iframe content (cross-origin).");
+					    }
+					  });
+					</script>
                   <p>
                      <b>Important Dates</b><br/>
 					  Paper Submission Deadline: <s>24 October 2025</s> <b>Extended to 29 October 2025 (Wednesday)</b><br/>
